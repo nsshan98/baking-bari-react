@@ -1,0 +1,26 @@
+.header {
+    height: 80px;
+    background-color: lightsalmon;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.header img {
+    height: 80%;
+}
+
+.header a {
+    margin-left: 10px;
+    padding: 5px;
+    text-decoration: none;
+    padding: 10px;
+    color: whitesmoke;
+    font-weight: 600;
+}
+
+.header a:hover{
+    color:#2B2612;
+}

@@ -1,0 +1,32 @@
+.product-card{
+    height: 550px;
+    border: 2px solid black;
+    border-radius: 0 0 10px 10px;
+    position: relative;
+}
+
+.product-card h5, p{
+    margin-left: 5px;
+}
+
+.product-card button {
+    width: 100%;
+    padding: 10px;
+    bottom: 0px;
+    position: absolute;
+    border-radius: 0 0 8px 8px;
+    border: none;
+    background-color:#FE9300;
+    font-size: medium;
+    font-weight: 600;
+}
+
+.product-card button:hover {
+    background-color: #FFB200;
+}
+
+.product-card img{
+    width: 325px;
+    height: 400px;
+    margin: 0px;
+}
